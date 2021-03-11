@@ -200,7 +200,9 @@ img{
     color:#e49204;
     text-align: center;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 2.5px;
+    margin-bottom: 2.5px;
+    z-index: 1;
 }
 .process-span{
     color: black;
@@ -263,7 +265,7 @@ footer{
 @media only screen and (min-width:600px){
 
 header{
-    background-image: url("/img/ingredients-960w.jpg");
+    background-image: url("../img/ingredients-960w.jpg");
     display: block;
     padding: 8px 5px;
 }
@@ -297,7 +299,7 @@ body{
 }
 
 header{
-    background-image: url("/img/ingredients-1920w.jpg");
+    background-image: url("../img/ingredients-1920w.jpg");
     display: block;
     /* height: 350px; */
     grid-column: 1 / span 2;
@@ -376,10 +378,6 @@ nav, .story, .main-process, footer{
     margin-right: 150px;
 }
 
-footer{
-    margin-top: -10px;
-    z-index: -1;
-}
 .left__items{
   font-size: 1.75vw;
 }
