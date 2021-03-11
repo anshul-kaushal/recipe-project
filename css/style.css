@@ -15,7 +15,7 @@ body{
 }
 header{
     display: flow-root;
-    background-image: url("/img/ingredients-480w.jpg");
+    background-image: url("../img/ingredients-480w.jpg");
     background-color:#353A42;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
