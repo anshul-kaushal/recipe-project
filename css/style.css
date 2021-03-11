@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}    
+:root{
+    --bg:white;
+    }    
+body{
+    background-color: var(--bg);
+    }
+.recipe{
+    display: grid;
+}
+header{
+    display: flow-root;
+    background-image: url("/img/ingredients-480w.jpg");
+    background-color:#353A42;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;  
+}
+h4
+{
+    position: relative;
+    margin: 15px 8px 5px;
+    background-color: #ffbc48;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    padding: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+h1{
+    color: white;
+    font-family: fira sans;
+    font-size:3.5rem;
+    display: block;
+    padding: 5px 8px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.header-para{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding: 5px 8px;
+}
+.header-span{
+    color:#ffbc48;
+    text-decoration: underline;
+    font-weight: 900;
+}
+.header-list{
+    font-weight: bold;
+    font-family: fira sans;
+    color: white;
+    font-size: 1em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 5px 8px;  
+}
+header ul li{
+  padding: 0px 0px 3px;
+}
+.recipe-stats{
+    background-color: #ffbc48;
+    font-family: fira sans;
+    font-weight:bolder;
+    color: black;
+    font-size: 0.9em;
+    padding:1px 1px 1px 1px;
+}
+nav{
+    background-color: #222028;
+    margin:0vw 0vw auto -1vw;
+}
+.nav-list{
+    font-family: fira sans;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 2em;
+    list-style: none;
+    padding: 2.5vw;
+}
+.nav-to-section:hover{
+    font-size: 1.1em;
+}
+.nav-to-section{
+    text-decoration: none;
+    color: #ffbc48;
+    transition: 0.5s ease-out;
+}
+.story,.main-process{
+    padding-left: 8px;
+}
+section{
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+}
+h2{
+    font-family: fira sans;
+    font-weight: bolder;
+    font-size:1.5em;
+    padding: 0 0 5px 0;
+}
+.section-para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 1em;
+    text-align: justify;
+    padding: 5px 0 5px 0;
+}
+.story-article{
+    border-left: 3px solid #ffbc48;
+}
+blockquote{
+    border-left: 4px solid #ffbc48;
+    margin-inline-start: 0px;
+    padding-left: 1rem;
+    padding-top: 5px;
+}
+.quote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.89em;
+    padding-left: 0.6em;
+    text-align: justify;
+}
+.quotee{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.89em;
+    padding-left: 0.6em;
+    padding-top: 5px;
+    text-align: justify;
+}
+.story-images{
+    display: block;
+    padding: 0.1em;
+}
+img{
+    max-width: 100%;
+}
+.ingredients-and-equipment{
+  padding: 5px 8px;
+}
+.ingredients-and-equipment section{
+  padding: 0;
+}
+.ingredients-heading, .equipment-heading{
+  padding-left: -15px;
+}
+.ingredients-list{
+    color: black;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 1em;
+     line-height: 1.5em;
+     padding: 5px 0 5px 16px;
+ }
+.equipment-list{
+    color: black;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 1em;
+     line-height: 1.5em;
+     padding: 5px 0 5px 16px;
+     margin-block-start: 0em;
+     
+ }
+.process-list{
+     padding: 5px 5px 0 15px;    
+ }
+.process-list-item{
+  padding-bottom: 5px;
+}
+.process-heading{
+     font-family: fira sans;
+     font-weight: bolder;
+     font-size: 1.2em;
+     padding-bottom: 2.5px;
+}
+.process-para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+    padding-bottom: 2.5px;
+}
+.element-caption{
+    margin-block-start: 0em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.86em;
+    color:#e49204;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.process-span{
+    color: black;
+    background-color: #ffbc48;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+ th, td{
+    border: 1px solid black;
+    text-align: center;
+    width: 480px;
+    padding: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.85em;
+}
+.rows{
+    background-color: #eeeeee;
+}
+footer{
+  background-color: #353a42;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px 20px 10px;
+}
+.left__items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 3vw;
+}
+.left__items ul, .right__items ul{
+  list-style:none;
+}
+.left__items ul li, .right__items ul li{
+  float: left;
+  padding: 8px 2px;
+  font-weight: 800;
+  color:#ffbc48;
+}
+.footer-text{
+  text-decoration: underline;
+}
+.right__items ul li{
+  font-size: 1.5rem;
+}
+
+
+
+/*MEDIA QUERIES FOR DESKTOP VIEW*/
+
+
+@media only screen and (min-width:600px){
+
+header{
+    background-image: url("/img/ingredients-960w.jpg");
+    display: block;
+    padding: 8px 5px;
+}
+h4{
+    font-size: 1em;
+}
+.header-para{
+  align-content: center;
+}
+.header-list{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    font-size: 1em;
+    padding-top: 10px;
+}
+.header-para{
+    max-width:550px;
+}
+.left__items{
+  font-size: 2.25vw;
+}
+}
+
+
+
+
+@media only screen and (min-width:850px){
+body{
+    background-color: #353A42;
+}
+
+header{
+    background-image: url("/img/ingredients-1920w.jpg");
+    display: block;
+    /* height: 350px; */
+    grid-column: 1 / span 2;
+    padding: 0 0 40px 0;
+    }
+.header-list{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    font-size: 1em;
+    margin-right: 150px;
+}
+.header-list li{
+    display: grid;
+    text-align: center;
+}
+h1, h4, .header-para, .header-list{
+    margin-left: 150px;
+}
+
+h4{
+  margin-left: 158px;
+}
+
+.recipe{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.ingredients-and-equipment{
+    grid-row: 2 / span 6;
+    background-color: #ffbc48;
+    margin-top: -1vw;
+    margin-left: 150px;
+    padding-right:8px;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    margin-top: -1vw;
+    margin-right: 150px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+.ingredients-heading, .equipment-heading{
+    text-align: center;
+}
+
+.ingredients-and-equipment section{
+  background-color: #ffbc48;
+  width: 190px;
+  padding-bottom: 15px;
+}
+
+.ingredients-list, .equipment-list{
+    margin-left: 15px;
+    padding-top: 0;
+}
+.process{
+    padding-top: 5px;
+}
+.story, .main-process{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left:0;
+    margin-top:-13px;
+}
+
+nav, .story, .main-process, footer{
+    margin-right: 150px;
+}
+
+footer{
+    margin-top: -10px;
+    z-index: -1;
+}
+.left__items{
+  font-size: 1.75vw;
+}
+}
